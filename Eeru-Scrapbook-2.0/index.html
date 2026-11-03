@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eeru Nethi | Our Little Memories 💗</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="puzzle-page">
+
+        <div class="top-flower">🌷</div>
+
+        <p class="eyebrow">A LITTLE SURPRISE FOR YOU</p>
+
+        <h1>Hey, Eeru Nethi! 💗</h1>
+
+        <p class="intro">
+            Before you enter our little memory album,
+            solve this picture puzzle!
+        </p>
+
+        <div class="instruction">
+            🧩 Tap two pieces to swap their places.
+        </div>
+
+        <div id="puzzle" class="puzzle-grid"></div>
+
+        <p id="message" class="message">
+            Take your time. You've got this! 🌸
+        </p>
+
+        <button id="shuffleButton" class="main-button">
+            Shuffle Puzzle ↻
+        </button>
+
+        <div id="successPanel" class="success-panel">
+            <h2>You did it! 🎉</h2>
+            <p>You unlocked the first little surprise!</p>
+            <button id="continueButton" class="main-button">
+                Enter Our Memories 💌
+            </button>
+        </div>
+
+        <p class="footer">A little album made with care ♡</p>
+
+    </main>
+    
+<!-- PAGE 2: OUR PHOTO GALLERY -->
+
+<section class="gallery-page" id="galleryPage">
+
+    <p class="eyebrow">CHAPTER TWO · OUR MEMORIES</p>
+
+    <h1>Little Moments, Big Memories 📸</h1>
+
+    <p class="gallery-intro">
+        Every picture holds a little story.
+        Here are some moments worth remembering. 💗
+    </p>
+
+    <div class="photo-gallery">
+
+        <div class="photo-card">
+            <img src="images/memory1.jpg"
+                 alt="Our first memory"
+                 class="gallery-image">
+
+            <h3>A Favourite Moment 🌷</h3>
+            <p>A little moment I'll always remember.</p>
+        </div>
+
+        <div class="photo-card">
+            <img src="images/memory2.jpg"
+                 alt="A happy memory"
+                 class="gallery-image">
+
+            <h3>Little Smiles 🦋</h3>
+            <p>One of those moments that made us smile.</p>
+        </div>
+
+        <div class="photo-card">
+            <img src="images/memory3.jpg"
+                 alt="A special memory"
+                 class="gallery-image">
+
+            <h3>Good Times 💗</h3>
+            <p>Simple moments, beautiful memories.</p>
+        </div>
+
+        <div class="photo-card">
+            <img src="images/memory4.jpg"
+                 alt="Another favourite memory"
+                 class="gallery-image">
+
+            <h3>Forever Remembered ✨</h3>
+            <p>A picture worth keeping close.</p>
+        </div>
+
+    </div>
+
+    <p class="gallery-hint">
+        Tap any picture to see it bigger! 💌
+    </p>
+
+    <div class="photo-viewer" id="photoViewer">
+        <button id="closeViewer" class="close-viewer"
+                aria-label="Close photo">×</button>
+
+        <img id="largePhoto" src="" alt="Enlarged memory">
+    </div>
+
+    <button id="nextPageButton" class="main-button">
+        Continue Our Journey ➜
+    </button>
+
+    <p class="footer">Chapter Two · Made with care ♡</p>
+
+</section>
+<!-- PAGE 3: MEMORY TIMELINE -->
+<section class="timeline-page" id="timelinePage">
+
+    <p class="eyebrow">CHAPTER THREE · OUR JOURNEY</p>
+
+    <h1>Little Moments, Our Story 🌷</h1>
+
+    <p class="timeline-intro">
+        Every memory has a story. Here's a little journey through ours. 💗
+    </p>
+
+    <div class="timeline">
+
+        <div class="timeline-card">
+            <span class="timeline-date">A DAY TO REMEMBER</span>
+            <h3>Our First Memory ✨</h3>
+            <p>Some moments become special without us even realising it.</p>
+        </div>
+
+        <div class="timeline-card">
+            <span class="timeline-date">A HAPPY MOMENT</span>
+            <h3>That Made Us Smile 🦋</h3>
+            <p>A simple moment that brought a little happiness.</p>
+        </div>
+
+        <div class="timeline-card">
+            <span class="timeline-date">A SPECIAL MEMORY</span>
+            <h3>Good Times Together 🌸</h3>
+            <p>Little moments that are worth remembering.</p>
+        </div>
+
+        <div class="timeline-card">
+            <span class="timeline-date">MORE TO COME</span>
+            <h3>The Journey Continues 💗</h3>
+            <p>There are still many beautiful memories waiting to be made.</p>
+        </div>
+
+    </div>
+
+    <button id="nextTimelineButton" class="main-button">
+        Discover the Surprise ➜
+    </button>
+
+    <p class="footer">Chapter Three · Made with care ♡</p>
+
+</section>
+<!-- PAGE 4: SURPRISE ROOM -->
+
+<section class="surprise-page" id="surprisePage">
+
+    <p class="eyebrow">CHAPTER FOUR · A LITTLE SURPRISE</p>
+
+    <h1>Three Little Surprises 💌</h1>
+
+    <p class="surprise-intro">
+        There are three little envelopes waiting for you.
+        Choose one and discover what's inside! 🌷
+    </p>
+
+    <div class="envelope-container">
+
+        <div class="envelope-card">
+            <button class="envelope" data-message="message1">
+                💌
+            </button>
+            <h3>Open When You Smile 🌸</h3>
+        </div>
+
+        <div class="envelope-card">
+            <button class="envelope" data-message="message2">
+                💌
+            </button>
+            <h3>A Little Reminder 🦋</h3>
+        </div>
+
+        <div class="envelope-card">
+            <button class="envelope" data-message="message3">
+                💌
+            </button>
+            <h3>One More Surprise ✨</h3>
+        </div>
+
+    </div>
+
+    <div class="surprise-message" id="message1">
+        <h2>A Little Happiness 🌷</h2>
+        <p>Never forget that even the smallest moments can become beautiful memories.</p>
+    </div>
+
+    <div class="surprise-message" id="message2">
+        <h2>A Little Reminder 💗</h2>
+        <p>Keep being yourself, keep smiling, and never stop enjoying the little things.</p>
+    </div>
+
+    <div class="surprise-message" id="message3">
+        <h2>One More Thing ✨</h2>
+        <p>Thank you for being part of these lovely memories. Here's to many more happy moments!</p>
+    </div>
+
+    <button id="nextSurpriseButton" class="main-button">
+        One Last Chapter ➜
+    </button>
+
+    <p class="footer">Chapter Four · Made with care ♡</p>
+
+</section>
+<!-- PAGE 5: FINAL LETTER -->
+
+<section class="final-page" id="finalPage">
+
+    <p class="eyebrow">CHAPTER FIVE · ONE LAST THING</p>
+
+    <div class="final-decoration">💗 🌷 💌</div>
+
+    <h1>A Little Letter for You</h1>
+
+    <p class="final-subtitle">
+        Some memories deserve a few words.
+    </p>
+
+    <div class="letter-container">
+
+        <div class="letter-top">Dear Eeru Nethi, 💗</div>
+
+        <div class="letter-content">
+
+            <p>
+                I created this little scrapbook to keep some
+                lovely memories in one place.
+            </p>
+
+            <p>
+                From the little moments to the unexpected laughs,
+                every memory has its own special story.
+            </p>
+
+            <p>
+                I hope whenever you visit this little website,
+                it brings a smile to your face and reminds you
+                of the happy moments we've shared.
+            </p>
+
+            <p>
+                Keep smiling, keep being yourself, and keep
+                collecting beautiful memories.
+            </p>
+
+            <p class="letter-ending">
+                With lots of care, <br>
+                From someone who appreciates these memories. ♡
+            </p>
+
+        </div>
+
+    </div>
+
+    <button id="finalSurpriseButton" class="main-button">
+        Open Your Final Surprise 🎁
+    </button>
+
+    <div class="final-surprise" id="finalSurprise">
+
+        <div class="gift-icon">🎁</div>
+
+        <h2>Surprise! 🌸</h2>
+
+        <p>
+            This little website is a collection of memories,
+            smiles and moments worth remembering.
+        </p>
+
+        <p>
+            Thank you for being part of this little story! 💗
+        </p>
+
+    </div>
+
+    <p class="final-footer">
+        THE END OF THIS SCRAPBOOK, NOT THE END OF THE MEMORIES ♡
+    </p>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
